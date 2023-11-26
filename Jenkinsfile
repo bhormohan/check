@@ -9,7 +9,7 @@ pipeline {
         }
         stage ('docker build image') {
             steps {
-                sh '/usr/bin/docker build -t <username>/mywebsite .'
+                sh '/usr/bin/docker build -t mywebsite .'
             }
         }
     }
